@@ -1,0 +1,51 @@
+Settings:
+  Title: '&8Быстрые сообщения'
+  Permission: fm.open
+
+ItemNoPerms:
+  Material: BARRIER
+  Data: 0
+  Name: '&cНет прав'
+  Lore:
+    - '&7Доступно от &e&lGOLD &7и выше.'
+
+Items:
+  MAJOR:
+    Material: PAPER
+    # Если хотите использовать 160:6 и т. п. Если не хотите использовать, ставьте всегда 0
+    Data: 0
+    Slot: 10
+    Name: '&bМажор'
+    Lore:
+      - '&7Сообщение: &aМажор $ (ಠ_ಠ) $'
+      - ''
+      - '&e▸ Нажмите, чтобы отправить сообщение.'
+    Permission: fm.major
+    Message: '&f✎ &aМажор $ (ಠ_ಠ) $'
+
+  POKA:
+    Material: PAPER
+    Data: 0
+    Slot: 11
+    Name: '&bПока'
+    Lore:
+      - '&7Сообщение: &aПока (0 ^ 0)'
+      - ''
+      - '&e▸ Нажмите, чтобы отправить сообщение.'
+    Permission: fm.poka
+    Message: '&f✎ &aПока (0^0)'
+
+  HELLO:
+    Material: PAPER
+    Data: 0
+    Slot: 12
+    Name: '&bПривет'
+    Lore:
+      - '&7Сообщение: &aПривет (o w o)'
+      - ''
+      - '&e▸ Нажмите, чтобы отправить сообщение.'
+    Permission: fm.hello
+    Message: '&f✎ &aПривет (o w o)'
+
+Messages:
+  NoPerm: '&6FM &8| &cУ вас нет прав!'

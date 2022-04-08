@@ -1,0 +1,9 @@
+name: PleasantFastMessages
+version: 1.0
+api-version: 1.13
+
+main: ru.mishaneyt.fm.Main
+authors: [ PleasantVKChannel ]
+
+commands:
+  fm:
